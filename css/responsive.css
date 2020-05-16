@@ -1,0 +1,81 @@
+
+/* ---------- Desktop ---------- */
+
+@media screen and (min-width: 1024px)
+{
+	.navbar-brand {
+		display: none;
+	}
+
+	.background {
+		margin-top: -58px;
+	}
+
+	.navbar {
+		position: sticky;
+		top: 0;
+		transition: .7s;
+	}
+
+	.navbar.active {
+		background-color: black;
+	}
+}
+
+
+
+
+
+/* ---------- Tablet ---------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+	.about img {
+		width: 80%;
+	}
+
+	.about h1 {
+		font-size: 3em;
+	}
+
+	.about p {
+		font-size: 1.4em;
+	}
+
+	.education p {
+		font-size: 1.2em;
+	}
+
+
+}
+
+
+
+/* ---------- Mobile ---------- */
+
+@media screen and (max-width: 767px) 
+{
+	.nav-link {
+		color: #000 !important;
+	}
+
+	.bg-text h1 {
+		font-size: 3em;
+	}
+
+	.about img {
+		width: 70%;
+	}
+
+	.about h1 {
+		font-size: 2.2em;
+	}
+
+	.education p {
+		text-align: justify;
+	}
+
+	.skill span {
+		font-size: 2em;
+	}
+}

@@ -1,0 +1,196 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+
+h3 {
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+	z-index: 2;
+}
+
+.nav-link {
+	color: #fff !important;
+	font-family: 'Merriweather', serif;
+}
+
+.nav-link.active {
+	color: #32A55B !important;
+	font-weight: 700;
+}
+
+
+/* ---------- Background ---------- */
+.background {
+	background: url('../img/bg.jpg') no-repeat center;
+	background-size: cover;
+	height: 110vh;
+	width: 100%;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+}
+
+.bg-text h1 {
+	font-size: 3.4em;
+	font-weight: 600;
+
+}
+
+.bg-text p {
+	font-size: 1.2em;
+	font-family: 'Merriweather', serif;
+}
+
+.bg-text span {
+	font-weight: 700;
+}
+
+.bg-text button {
+	background-color: #32A55B;
+}
+
+.typer {
+	transform: translate(-50%, -50%);
+}
+
+
+/* ---------- Background ---------- */
+.about img {
+	width: 100%;
+	display: block;
+		margin: auto;
+}
+
+.about h1 {
+	font-weight: 600;
+}
+
+.about p {
+	text-align: justify;
+}
+
+.about .p-profesi {
+	color: #32A55B;
+	text-transform: uppercase;
+}
+
+/* ---------- Service ---------- */
+.service {
+	text-align: center;
+}
+.service span {
+	font-size: 2.8em;
+}
+
+.kolom1 {
+	background-color: #F0F0F0;
+}
+
+.kolom2 {
+	background-color: #eaeaea;
+}
+
+/* ---------- Education ---------- */
+
+.figure {
+	box-shadow: -10px -10px 10px rgba(255,255,255, 0.5), 10px 10px 10px rgba(0,0,0,0.05);
+}
+
+.education p {
+	text-align: center;
+}
+
+.education .sekolah {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.gambar {
+	overflow: hidden;
+}
+
+.gambar > img {
+	transition: transform .5s ease;
+}
+
+.gambar > img:hover {
+	transform: scale(1.5);
+}
+
+
+/* ---------- Skill ---------- */
+.skill {
+	background: url('../img/bg1.jpg') no-repeat center;
+	position: relative;
+	background-attachment: fixed;
+	width: 100%;
+	background-size: cover ;
+}
+
+.skill span {
+	font-size: 4em;
+}
+
+.skill::before {
+	content: '';
+	display: block;
+	position: absolute;
+	background: linear-gradient(to top, rgb(79,90,247,.5) , rgba(0,0,0,.2) );
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+
+/* ---------- Gallery ---------- */
+.gallery img {
+	width: 100%;
+}
+
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	transition: transform .5s ease-in-out;
+
+}
+
+.zoom img:hover {
+	transform: scale(2) rotate(20deg);
+}
+
+/* ---------- Contact ---------- */
+.contact {
+	background-color: #F0F0F0;
+}
+
+.contact span {
+	font-size: 1.2em;
+}
+
+.contact a {
+	text-decoration: none;
+	color: black;
+}
+
+.footer p {
+	font-weight: 600;
+}
+
+.btnTop {
+	position: fixed;
+	display: none;
+	right: 20px;
+	bottom: 40px;
+	font-size: 2.5em;
+	cursor: pointer;
+}
+
